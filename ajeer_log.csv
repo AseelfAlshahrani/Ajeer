@@ -1,0 +1,163 @@
+PDF Name,Employee ID,Ajeer ID,Issue Date,Expiry Date,Status
+104526.pdf,104526,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+97092.pdf,97092,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+99496.pdf,99496,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+104526.pdf,104526,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+97092.pdf,97092,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+99496.pdf,99496,-,-,-,Failed ❌ (fill_web_form() missing 1 required positional argument: 'pdf_path')
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,-,-,-,"Failed ❌ (Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+)"
+97092.pdf,97092,TQ5568330,2025-08-23,2026-02-23,Success ✅
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.screenshot: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.fill: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,-,-,-,Failed ❌ (cannot access local variable 'success' where it is not associated with a value)
+97092.pdf,97092,-,-,-,Failed ❌ (cannot access local variable 'success' where it is not associated with a value)
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.wait_for_timeout: Target page, context or browser has been closed)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.goto: Target page, context or browser has been closed)"
+104526.pdf,104526,TQ5564474,2025-08-23,2026-02-23,Success ✅
+97092.pdf,97092,TQ5568330,2025-08-23,2026-02-23,Success ✅
+99496.pdf,99496,TQ5681102,2025-09-17,2025-10-17,Success ✅
+104526.pdf,104526,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+104526.pdf,104526,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+97092.pdf,97092,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+99496.pdf,99496,-,-,-,"Failed ❌ (Page.wait_for_selector: Unknown engine ""deep"" while parsing selector oj-file-picker >> deep=input[type=file]
+Call log:
+  - waiting for locator(""oj-file-picker"").locator(""deep=input[type=file]"") to be visible
+)"
+104526.pdf,104526,-,-,-,"Failed ❌ (Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(""oj-file-picker:shadow input[type=file]"") to be visible
+)"
+104526.pdf,104526,-,-,-,"❌ Failed (Page.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=EEGGxMcLzcNyyhds6JenpYX…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=EEGGxMcLzcNyyhds6JenpYX…""
+)"
+97092.pdf,97092,-,-,-,"❌ Failed (Page.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=lh_9AjTSg_T_vWlTBd0QQMW…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=lh_9AjTSg_T_vWlTBd0QQMW…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNbb5swFP4ryH02GGPSYIVU6bKqqLdoyaaob8aYxJKxGTZL8%2B9rkiF1k5q%2BWUffOee7HM9u3hoV%2FBGdlUbnIA4RCITmppJ6l4Ofmzs4…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNbb5swFP4ryH02GGPSYIVU6bKqqLdoyaaob8aYxJKxGTZL8%2B9rkiF1k5q%2BWUffOee7HM9u3hoV%2FBGdlUbnIA4RCITmppJ6l4Ofmzs4…""
+)"
+99496.pdf,99496,-,-,-,"❌ Failed (Page.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=DE2igdaovbEBLrDmbIoFFmB…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=DE2igdaovbEBLrDmbIoFFmB…""
+)"
+104526.pdf,104526,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=srQEZMW4kf0HVVQ0V7ane6k…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=srQEZMW4kf0HVVQ0V7ane6k…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNdb9MwFP0rkffsxEmc0lhNp0KZqLRBoQWNvTm20xocO9jOuvLrcVoiDaR1b9bVufeej%2BvZ9VOrokdhnTS6AmmMQCQ0M1zqXQW%2Bbm%2Fg…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNdb9MwFP0rkffsxEmc0lhNp0KZqLRBoQWNvTm20xocO9jOuvLrcVoiDaR1b9bVufeej%2BvZ9VOrokdhnTS6AmmMQCQ0M1zqXQW%2Bbm%2Fg…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login""
+)"
+97092.pdf,97092,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=P_Slt31_eRfw9SW9RsKJWDU…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=P_Slt31_eRfw9SW9RsKJWDU…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNdb5swFP0ryH02GGNosEKqdF21SO2aNtkU7c0Yk1gydobNKPv1M8mQuklN36yrc%2B89H9fzm9dGBb9Ea6XRBYhDBAKhuamk3hfg2%2FYezk…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNdb5swFP0ryH02GGNosEKqdF21SO2aNtkU7c0Yk1gydobNKPv1M8mQuklN36yrc%2B89H9fzm9dGBb9Ea6XRBYhDBAKhuamk3hfg2%2FYezk…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login""
+)"
+99496.pdf,99496,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-1\\|input"")
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=bi3Iyd87eEydmbfOjmRt38l…"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/oauth2/v1/authorize?response_mode=form_post&response_type=id_token&scope=openid&IDCS_CG_ENC_VER=v2&state=bi3Iyd87eEydmbfOjmRt38l…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNtb9owEP4rkfvZiWMcRqyGig2xIbWDFVZ1%2B%2BY4F7Dm2Cx2Svvv58AidZNKv1mn5%2B6el%2FP1zXOjoydonbKmQGlMUARG2kqZXYG%2B…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/saml2?SAMLRequest=hVNtb9owEP4rkfvZiWMcRqyGig2xIbWDFVZ1%2B%2BY4F7Dm2Cx2Svvv58AidZNKv1mn5%2B6el%2FP1zXOjoydonbKmQGlMUARG2kqZXYG%2B…""
+    - waiting for"" https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/94284066-f21c-410a-98f6-52cba42c94db/login""
+    - waiting for"" https://login.microsoftonline.com/common/SAS/ProcessAuth"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/SAS/ProcessAuth""
+    - waiting for"" https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/fed/v1/sp/sso"" navigation to finish...
+    - navigated to ""https://idcs-45c5caeecf47405cbe63b99ba038d2a4.identity.oraclecloud.com/fed/v1/sp/sso""
+    - waiting for"" https://nahdi-frfvx5xzdhpl-je.integration.ocp.oraclecloud.com/ic/builder/protected?appid=NahdiAjeerProgramApp&appver=live&endUri=webApps%2Fnahdiajeerprogram%2F"" navigation to finish...
+    - navigated to ""https://nahdi-frfvx5xzdhpl-je.integration.ocp.oraclecloud.com/ic/builder/rt/NahdiAjeerProgramApp/live/webApps/nahdiajeerprogram/""
+)"
+104526.pdf,104526,-,-,-,❌ Failed (❌ Could not locate file input even after checking nested shadows.)
+97092.pdf,97092,-,-,-,❌ Failed (❌ Could not locate file input even after checking nested shadows.)
+104526.pdf,104526,-,-,-,"❌ Failed (BrowserContext.close: Target page, context or browser has been closed)"
+97092.pdf,97092,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-3\\|input"")
+)"
+104526.pdf,104526,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-3\\|input"")
+)"
+97092.pdf,97092,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-3\\|input"")
+)"
+99496.pdf,99496,-,-,-,"❌ Failed (Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""input#field-3\\|input"")
+)"
+104526.pdf,104526,-,-,-,❌ Failed (Event loop is closed! Is Playwright already stopped?)
+97092.pdf,97092,-,-,-,❌ Failed (Event loop is closed! Is Playwright already stopped?)
+99496.pdf,99496,-,-,-,❌ Failed (Event loop is closed! Is Playwright already stopped?)
