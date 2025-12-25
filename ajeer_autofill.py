@@ -1,4 +1,4 @@
-Aimport pdfplumber #Reads PDFs and extracts text.
+import pdfplumber #Reads PDFs and extracts text.
 import re #For regular expressions
 import os #For file handling
 import csv #Exploring data
