@@ -11,13 +11,17 @@ HEADLESS = False #False = browser UI is visiable, True = runs in background
 USER_DATA_DIR = "user_data" #Save sessio. So that the user won't need to log in evert time
 # =====================
 
+#=====================METHOD 1=====================
 #Opnes the PDF 
 #Joins text from all pages into a single String 
 #"or " "" = ensure no error when the page has no text
 def extract_pdf_data(pdf_path):
     """Extract Ajeer ID, Issue Date, and Expiry Date from reversed Arabic PDF"""
+    #=====================1=====================
     with pdfplumber.open(pdf_path) as pdf:
+        #=====================2=====================
         text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        #===========================================
 
 #Remove spaces and right-to-left markers. "\u200f" for easier regex markers
     text = text.replace(" ", "").replace("\u200f", "")
@@ -25,11 +29,13 @@ def extract_pdf_data(pdf_path):
 #Reguler Expression to find:
 #TQ followed by >= 5  = Ajeer ID
 #Dates in YYYY-MM-DD format followed by Arabic labels = Issue Dates
+    #=====================3=====================
     ajeer_id_match = re.search(r"TQ\d{5,}", text)
     issue_match = re.search(r"(\d{4}[-/]\d{2}[-/]\d{2})ﺢﻳﺮﺼﺘﻟاﺔﻳاﺪﺑﺦﻳرﺎﺗ", text)
     expiry_match = re.search(r"(\d{4}[-/]\d{2}[-/]\d{2})ﺢﻳﺮﺼﺘﻟاﺔﻳﺎﻬﻧﺦﻳرﺎﺗ", text)
 
 #If any data is missing, it prints the first 800 characters of the PDF for debugging and raises and error
+    #=====================4=====================
     if not (ajeer_id_match and issue_match and expiry_match):
         print("=== DEBUG START ===")
         print(text[:800])
@@ -37,8 +43,10 @@ def extract_pdf_data(pdf_path):
         raise ValueError(f"⚠️ Missing required data in {pdf_path}")
 
 #Returns extracted data as a tuple: (Ajeer ID, Issue Date, Expiry Date)
+    #=====================5=====================
     return ajeer_id_match.group(0), issue_match.group(1), expiry_match.group(1)
 
+#=====================METHOD 2=====================
 #Debgging tool for inspecting shadow DOM elements, often used in Oracle JET components
 #Check if the file input exists inside a shadowRoot
 def debug_shadow_dom(page):
@@ -61,12 +69,14 @@ def debug_shadow_dom(page):
     """)
     print(f"🔍 Shadow DOM Info:\n{shadow_info}")
 
+#=====================METHOD 3=====================
 #Main automation function: opens page, fills form, upload PDFs, submits
 def fill_web_form(context, employee_id, ajeer_id, issue_date, expiry_date, pdf_path):
     """Automate the form fill and upload (reuses persistent browser context)"""
-    
+    #=====================1=====================
     #Opens a new browser tab and navigates to the URL
     page = context.new_page()
+    #===========================================
 
     print(f"\n🌐 Navigating to {TARGET_URL} ...")
     #Waits for the network to be idle (Page fully loaded)
@@ -77,17 +87,20 @@ def fill_web_form(context, employee_id, ajeer_id, issue_date, expiry_date, pdf_p
     # === STEP 1: Fill Employee ID and trigger form expansion ===
     #Find employee field and fills it
     print("\n📝 STEP 1: Filling Employee ID...")
+    #=====================2=====================
     try:
         #Use \\| to escape the character |
         page.wait_for_selector('input#field-1\\|input', timeout=15000, state="visible")
         
         # Fill the field
         employee_input = page.locator('input#field-1\\|input')
+        #=====================3=====================
         employee_input.fill(employee_id)
         print(f"✅ Employee ID filled: {employee_id}")
         
         # More aggressive event triggering
         #Runs JavaScript to trigger multiple events on the input (IMPORTANT for validation in Oracle JET forms)
+        #=====================4 =====================
         page.evaluate("""
             (empId) => {
                 const input = document.querySelector('input#field-1\\\\|input');
@@ -111,14 +124,16 @@ def fill_web_form(context, employee_id, ajeer_id, issue_date, expiry_date, pdf_p
                 }
             }
         """, employee_id)
-        
+        #===========================================
         print("⏳ Waiting for validation...")
         page.wait_for_timeout(3000)
         
         # Click somewhere else to trigger blur (important for validation)
+        #=====================5=====================
         page.evaluate("() => document.body.click()")
+        #===========================================
         page.wait_for_timeout(1000)
-        
+        #=====================6=====================
     except Exception as e:
         print(f"❌ Error filling Employee ID: {e}")
         page.screenshot(path="step1_error.png")
