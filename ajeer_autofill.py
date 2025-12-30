@@ -1,5 +1,5 @@
 import pdfplumber #Reads PDFs and extracts text.
-import re #For regular expressions 
+import re #For regular expressions
 import os #For file handling
 import csv #Exploring data
 from playwright.sync_api import sync_playwright #Automatic web browser
